@@ -11,3 +11,4 @@ elif (num % 6 == 0):
     print(str(num) + " is Divisible By 6")
 else:
     print(str(num) + " is Not Divisible by 5 or 6")
+ 
