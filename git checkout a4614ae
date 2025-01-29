@@ -1,0 +1,77 @@
+[1mdiff --git a/pythonSolving/30.python.py b/pythonSolving/30.python.py[m
+[1mindex e18b8c1..816fec9 100644[m
+[1m--- a/pythonSolving/30.python.py[m
+[1m+++ b/pythonSolving/30.python.py[m
+[36m@@ -11,4 +11,3 @@[m [melif (num % 6 == 0):[m
+     print(str(num) + " is Divisible By 6")[m
+ else:[m
+     print(str(num) + " is Not Divisible by 5 or 6")[m
+[31m- [m
+\ No newline at end of file[m
+[1mdiff --git a/pythonSolving/59.python.py b/pythonSolving/59.python.py[m
+[1mdeleted file mode 100644[m
+[1mindex 478b624..0000000[m
+[1m--- a/pythonSolving/59.python.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,10 +0,0 @@[m
+[31m-# Get a Bio from a user[m
+[31m-# Ge a target word[m
+[31m-# Count Specific word[m
+[31m-[m
+[31m-user_bio = input("Enter a bio: ")[m
+[31m-target_word = input("Enter target word: ")[m
+[31m-[m
+[31m-count_occr = user_bio.split().count(target_word)[m
+[31m-[m
+[31m-print(f"The bio {user_bio}  target word occur {count_occr}")[m
+\ No newline at end of file[m
+[1mdiff --git a/pythonSolving/60.problem.py b/pythonSolving/60.problem.py[m
+[1mdeleted file mode 100644[m
+[1mindex 80c7b86..0000000[m
+[1m--- a/pythonSolving/60.problem.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,12 +0,0 @@[m
+[31m-# Get 5 author Name with their Book Name[m
+[31m-# Display last author with its Book Name[m
+[31m-[m
+[31m-library = {}[m
+[31m-[m
+[31m-for i in range(2):[m
+[31m-    author_name = input("Enter author name: ")[m
+[31m-    book_name = input("Enter Book name: ")[m
+[31m-    library[author_name] = book_name[m
+[31m-print("First Author is " + str(list(library.keys())[0]))[m
+[31m-print("Bookname is " + str(list(library.values())[0]))[m
+[31m-print(library)[m
+\ No newline at end of file[m
+[1mdiff --git a/pythonSolving/61.python.py b/pythonSolving/61.python.py[m
+[1mdeleted file mode 100644[m
+[1mindex 16bc972..0000000[m
+[1m--- a/pythonSolving/61.python.py[m
+[1m+++ /dev/null[m
+[36m@@ -1,8 +0,0 @@[m
+[31m-# Get memory in Bytes[m
+[31m-# Convert to GB[m
+[31m-[m
+[31m-bytes_input = int(input("Enter a bytes: "))[m
+[31m-[m
+[31m-gigaBytes = bytes_input / (1024 ** 3)[m
+[31m-[m
+[31m-print(f"{bytes_input} bytes = {gigaBytes:.2f} GB ")[m
+\ No newline at end of file[m
+[1mdiff --git a/pythonSolving/practice.py b/pythonSolving/practice.py[m
+[1mindex b2fcc98..c1b605f 100644[m
+[1m--- a/pythonSolving/practice.py[m
+[1m+++ b/pythonSolving/practice.py[m
+[36m@@ -7,8 +7,4 @@[m [mi = 0[m
+ while i < int(iteration):[m
+     print(textMessage)[m
+     i += 1[m
+[31m-[m
+[31m-# new iteration[m
+[31m-#Hi Mike[m
+[31m-#Thank you lord[m
+[31m-#For today[m
+\ No newline at end of file[m
+[41m+    [m
+\ No newline at end of file[m
