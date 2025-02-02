@@ -42,8 +42,8 @@ def add_watermark(input_image_path, output_image_path, watermark_text):
         print(f"An error occurred: {e}")
 
 # Example usage
-input_image_path = 'images.jpeg'
-output_image_path = 'output_image_watermarked.jpg'
+input_image_path = 'rolith.jpg'
+output_image_path = 'image1s.jpg'
 watermark_text = 'Faisal Zamir'
 
 add_watermark(input_image_path, output_image_path, watermark_text)
