@@ -8,7 +8,7 @@ def generate_palette(image_path, num_colors):
     if image.mode == 'RGBA':
         image = image.convert('RGB')
 
-    pixels = Counter(image.getdata())  # Convert to list
+    pixels = Counter(image.getdata()) 
 
     color_counter = Counter(pixels)
 

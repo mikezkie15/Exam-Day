@@ -2,7 +2,7 @@
 # Get two number from user and add result and
 # Display existing file
 
-file = open("Mike.txt","r+")
+file = open("../Mike.txt", "r+")
 
 print(file.read())
 
